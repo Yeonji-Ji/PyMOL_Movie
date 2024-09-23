@@ -2,15 +2,15 @@
 
 e.g.) python   data_by_frame.py   -top   top.prmtop   -traj   traj.nc  -cc clustercenterfile.pdb    -summary    hsa_hsa_summary.csv    -hs  5    -pref  pref
 
-Arguments \n
-    top) top.ptmtop\n
-    traj) trajectory.nc\n
-    cc) clustercenterfile.pdb\n
-    summary) hsa_hsa_summary.txt (or csv if you have)\n
-    hs) hydration site number to make a movie\n
-    pref) prefix for the data file\n
+Arguments 
+    top) top.ptmtop
+    traj) trajectory.nc
+    cc) clustercenterfile.pdb
+    summary) hsa_hsa_summary.txt (or csv if you have)
+    hs) hydration site number to make a movie
+    pref) prefix for the data file
     
-Optional \n
+Optional 
     sitewat) hydration_site_water_file.csv (if you have. If you don’t have it, the script automatically generates the csv file, so you can use the file for the next run)
 
 2.	Open PyMOL.
